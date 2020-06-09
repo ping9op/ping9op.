@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+/* contents영역 css 시작*/
+
+.cotents {
+    clear: both;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.vs_shop {
+    clear: both;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.shop_page {
+    clear: both;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.page_name {
+    clear: both;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.lst1 {
+    clear: both;
+    margin-top: 50px;
+}
+
+.lst1 li {
+    float: left;
+    margin-right: 70px;
+    margin-bottom: 150px;
+}
+
+.lst1 li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.lst1 li a img {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    transition: 0.4s
+}
+
+.lst1 li a:hover img {
+    width: 380px;
+    margin: 0 auto;
+}
+
+.lst1 .item_tit,
+.lst1 .item_com {
+    width: 380px;
+    color: #333;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.lst1 li a:hover .item_tit {
+    color: coral
+}
+
+.lst1 li a:hover .item_com {
+    color: deeppink
+}
+
+.lst1 .btn {
+    border: 1px solid #333;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+    color: #333;
+    font-weight: bold;
+}
+
+.lst1 .btn:hover {
+    background-color: #111;
+    color: #fff;
+    transition: 0.3s;
+}
+
+
+/* contents영역 css 마침*/

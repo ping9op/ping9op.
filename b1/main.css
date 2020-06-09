@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+.vs {
+    clear: both;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.ban {
+    width: 400%;
+}
+
+.ban li {
+    float: left;
+    width: 25%;
+    position: relative;
+}
+
+.ban #box1 {
+    clear: both;
+    position: absolute;
+    left: 200px;
+    top: 241px;
+    width: 1280px;
+    color: #fff;
+}
+
+.ban #box2 {
+    clear: both;
+    position: absolute;
+    left: 1480px;
+    top: 241px;
+    width: 1280px;
+}
+
+.ban #box3 {
+    clear: both;
+    position: absolute;
+    left: 3340px;
+    top: 241px;
+    width: 1280px;
+}
+
+.ban .tit_box a {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.ban .tit_box a:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.ban .tit_box .vs_com {
+    padding-bottom: 20px;
+}
+
+
+.page {
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.page_name {
+    clear: both;
+    text-align: center;
+    height: 150px;
+    margin-top: 50px;
+}
+
+.page_tit_s {
+    padding-top: 50px;
+}
+
+.page_tit_l {
+    padding-bottom: 30px;
+}
+
+.lst1 {
+    clear: both;
+    margin-top: 50px;
+}
+
+.lst1 li {
+    float: left;
+    margin-right: 157px;
+    margin-left: 157px;
+}
+
+.lst1 li a img {
+    display: block;
+    width: 240px;
+    margin: 20px auto;
+    transition: 0.3s
+}
+
+.lst1 li a:hover img {
+    width: 326px;
+    margin: 0 auto;
+}
+
+.lst1 .item_tit,
+.lst1 .item_com {
+    width: 326px;
+    color: #333;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.lst1 li a:hover .item_tit {
+    color: coral
+}
+
+.lst1 li a:hover .item_com {
+    color: deeppink
+}
+
+.lst2 {
+    clear: both;
+    margin-top: 50px;
+}
+
+.lst2 li {
+    float: left;
+    width: 396px;
+    margin-right: 46px;
+}
+
+.lst2 li:nth-child(3) {
+    margin-right: 0;
+}
+
+.lst2 li a img {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+
+.lst2 li a:hover img {
+    width: 396px;
+    margin: 0 auto;
+}
+
+.lst2 .item_tit,
+.lst2 .item_com {
+    color: #333;
+    display: block;
+    margin-bottom: 15px;
+    width: 396px;
+}
+
+.lst2 li a:hover .item_tit {
+    color: coral
+}
+
+.lst2 li a:hover .item_com {
+    color: deeppink
+}
+
+
+.lst3 {
+    clear: both;
+    margin-top: 50px;
+}
+
+.lst3 li {
+    width: 280px;
+    float: left;
+    margin-right: 53px;
+    margin-bottom: 150px;
+}
+
+.lst3 li:nth-child(4) {
+    margin-right: 0;
+}

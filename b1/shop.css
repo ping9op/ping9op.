@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+/* contents영역 css 시작*/
+
+.cotents {
+    clear: both;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.vs_shop {
+    clear: both;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.shop_page {
+    clear: both;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.page_name {
+    clear: both;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.lst1 {
+    clear: both;
+    margin-top: 50px;
+}
+
+.lst1 li {
+    float: left;
+    margin-right: 70px;
+    margin-bottom: 150px;
+}
+
+.lst1 li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.lst1 li a img {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.lst1 li a:hover img {
+    width: 380px;
+    margin: 0 auto;
+}
+
+.lst1 .item_tit,
+.lst1 .item_com {
+    width: 380px;
+    color: #333
+}
+
+.lst1 li a:hover .item_tit {
+    color: coral
+}
+
+.lst1 li a:hover .item_com {
+    color: deeppink
+}
+
+
+/* contents영역 css 마침*/
